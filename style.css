@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-
+flex-wrap: wrap;
 }
 
 .list{
@@ -66,3 +66,64 @@ cursor: pointer;
 }
 
 /* navbar end here */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+}
+
+.right-div{
+    margin-top: 30px;
+
+}
+
+.heading{
+    font-size: 60px;
+    width: 600px;
+    font-weight: 900;
+    padding-left: 100px;
+    margin-top: 50px;
+    
+}
+.content{
+    width: 490px;
+    padding-left: 130px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.but{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #b2afc2;
+}
+.left-div img{
+    margin-top: 50px;
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+@media screen and (max-width:707px) {
+    .heading{
+        width: 350px;
+        font-size: 30px;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .content{
+        display: none;
+    }
+    .left-div img{
+        width: 400px;
+        height: 200px;
+    }
+.but{
+    margin-left: 120px;
+}
+
+}
