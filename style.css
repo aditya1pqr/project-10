@@ -73,6 +73,7 @@ cursor: pointer;
     flex-wrap: wrap;
     height: 600px;
     width: 100%;
+    margin-top: 60px;
 }
 
 .right-div{
@@ -126,4 +127,63 @@ cursor: pointer;
     margin-left: 120px;
 }
 
+}
+
+
+@media screen and (max-width:1290px){
+    .left-div {
+        margin-left: 20px;
+    }
+}
+/* hero section ends here */
+
+
+.costing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 100%;
+    margin-top: 60px;
+}
+.left-costing{
+    margin-right: 50px;
+}
+.right-costing img{
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.costing-heading{
+    font-size: 60px;
+    width: 600px;
+    font-weight: 900;
+    margin-top: 50px;
+    
+}
+
+.costing-content{
+    width: 490px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.but2{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #b2afc2;
+}
+
+@media screen and (max-width:1290px){
+    .right-costing {
+        margin-top: 450px;
+    }
+    .costing-heading{
+        margin-left: 20px;
+    }
+    .left-costing{
+        margin-left: 35px;
+    }
 }
