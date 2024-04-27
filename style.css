@@ -266,3 +266,36 @@ cursor: pointer;
 
 
 /* support section end here */
+
+
+.provider{
+
+    margin-top: 60px;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.provider-heading{
+    width: 400px;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+.provider-contant{
+    margin-top: 10px;
+  color: rgb(85, 91, 91);
+    width: 500px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:1290px){
+
+.provider{
+    margin-top: 500px;
+}
+
+}
+
+
+/* services section ends here */
